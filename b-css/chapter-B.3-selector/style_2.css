@@ -1,0 +1,20 @@
+.has-green-color {
+  color: green;
+}
+
+.default-button-style {
+  padding: 1rem 3rem;
+  border-radius: 12px;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.backround-blue {
+  background-color: blue;
+  color: white;
+}
+
+.backround-brown {
+  background-color: brown;
+  color: white;
+}
