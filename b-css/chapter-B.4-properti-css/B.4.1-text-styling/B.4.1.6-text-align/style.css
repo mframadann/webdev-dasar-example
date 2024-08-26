@@ -1,0 +1,15 @@
+body {
+  max-width: 500px;
+}
+
+.text-1 {
+  text-align: left;
+}
+
+.text-2 {
+  text-align: center;
+}
+
+.text-3 {
+  text-align: justify;
+}
