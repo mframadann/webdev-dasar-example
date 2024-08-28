@@ -1,0 +1,11 @@
+.to-lowercase {
+  text-transform: lowercase;
+}
+
+.to-uppercase {
+  text-transform: uppercase;
+}
+
+.to-capitalize {
+  text-transform: capitalize;
+}
