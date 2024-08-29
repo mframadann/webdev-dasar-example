@@ -1,0 +1,38 @@
+/* div {
+  width: 100px;
+  height: 100px;
+  border-radius: 16px;
+  background-color: blueviolet;
+} */
+
+/* .circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #3498db;
+} */
+
+/* div {
+  width: 100px;
+  height: 100px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: burlywood;
+} */
+
+
+/* div {
+  width: 100px;
+  height: 100px;
+  border-radius: 28px 24px 32px 18px;
+  background-color: burlywood;
+} */
+
+img {
+  width: 25%;
+  margin: 1rem;
+}
+
+.with-border-radius {
+  border-radius: 1rem;
+}
