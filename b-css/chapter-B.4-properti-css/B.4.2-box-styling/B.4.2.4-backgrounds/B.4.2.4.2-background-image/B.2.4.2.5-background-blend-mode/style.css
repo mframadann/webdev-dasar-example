@@ -1,0 +1,9 @@
+.card-image {
+  width: 400px;
+  height: 250px;
+  background-image: url('./sakura.jpg');
+  background-size: cover;
+  border-radius: 1.5rem;
+  background-color: rebeccapurple;
+  background-blend-mode: multiply;
+}

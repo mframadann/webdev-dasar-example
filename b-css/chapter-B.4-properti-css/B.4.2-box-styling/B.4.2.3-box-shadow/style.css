@@ -5,12 +5,12 @@ body {
 }
 
 
-/* div {
+div {
   width: 200px;
   height: 200px;
   box-shadow: 5px 5px 10px gray;
   border-radius: 12px;
-} */
+}
 
 /* div {
   width: 200px;
@@ -35,10 +35,10 @@ div {
   background-color: antiquewhite;
 } */
 
-div {
+/* div {
   width: 200px;
   height: 200px;
   box-shadow: inset 5px 5px 10px blueviolet;
   border-radius: 12px;
   background-color: antiquewhite;
-}
+} */

@@ -1,0 +1,6 @@
+body {
+  background-image: url('./sakura.jpg');
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}

@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  border-radius: 0.75rem;
+}
+
+.hex {
+  background-color: #5ACE79;
+}
+
+.rgba {
+  background-color: rgba(90, 206, 121, 0.5);
+}
