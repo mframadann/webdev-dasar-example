@@ -1,0 +1,56 @@
+/* Uncomment this code to see beaviour of display block style in web browser. */
+/* .block-element {
+  display: block;
+  width: 100%;
+  background-color: lightblue;
+  height: 200px;
+}
+
+.element-2 {
+  display: block;
+  width: 100%;
+  background-color: lightgreen;
+  height: 200px;
+} */
+
+/* Display inline example */
+/* p.inline-element {
+  display: inline;
+  color: brown;
+}
+
+p.inline-element:nth-child(2) {
+  color: blueviolet;
+} */
+
+/* Display inline-block example */
+/* .inline-block-element {
+  width: 300px;
+  background-color: lightblue;
+  height: 200px;
+}
+
+.element-2 {
+  width: 300px;
+  background-color: lightgreen;
+  height: 200px;
+} */
+
+/* Display none example */
+/* .hidden-element {
+  display: none;
+  width: 200px;
+  height: 200px;
+  background-color: blueviolet;
+} */
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-child {
+  width: 300px;
+  height: 200px;
+  background-color: lightblue;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contoh Display CSS</title>
+    <style>
+      .block-element {
+        display: block;
+        width: 100%;
+        background-color: lightblue;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+
+      .inline-element {
+        display: inline;
+        color: red;
+      }
+
+      .inline-block-element {
+        display: inline-block;
+        width: 200px;
+        height: 100px;
+        background-color: coral;
+        margin: 5px;
+      }
+
+      .flex-container {
+        display: flex;
+        justify-content: space-between;
+        background-color: lightgreen;
+        padding: 10px;
+      }
+
+      .hidden-element {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="block-element">
+      Saya adalah elemen block yang memenuhi lebar kontainer!
+    </div>
+
+    <span class="inline-element">Saya inline</span>
+    <span class="inline-element">Elemen inline lain</span>
+
+    <div class="inline-block-element">Saya inline-block</div>
+    <div class="inline-block-element">Elemen inline-block lain</div>
+
+    <div class="flex-container">
+      <div>Flex Item 1</div>
+      <div>Flex Item 2</div>
+      <div>Flex Item 3</div>
+    </div>
+  </body>
+</html>
