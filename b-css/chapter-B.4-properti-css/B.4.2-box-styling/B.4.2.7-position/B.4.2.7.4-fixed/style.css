@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 100%;
+  background-color: antiquewhite;
+  padding: 0.25rem 1rem;
+  /* position: static; */
+  /* position: fixed; */
+  top: 0;
+}
+
+.content {
+  padding: 1rem;
+}

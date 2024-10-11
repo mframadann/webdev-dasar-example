@@ -1,0 +1,12 @@
+body {
+  border: 2px solid black;
+  padding: 8px;
+  height: 90vh;
+}
+
+.element {
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  position: static;
+}

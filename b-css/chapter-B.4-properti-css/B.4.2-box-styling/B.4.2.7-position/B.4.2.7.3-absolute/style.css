@@ -1,0 +1,21 @@
+body {
+  border: 2px solid black;
+  padding: 1rem;
+  height: 90vh;
+}
+
+.container {
+  border: 2px solid brown;
+  height: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.element {
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  position: absolute;
+  bottom: 0;
+}
