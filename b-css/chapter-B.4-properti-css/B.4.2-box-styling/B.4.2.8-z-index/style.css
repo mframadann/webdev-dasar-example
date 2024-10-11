@@ -1,0 +1,30 @@
+.box {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  padding: 20px;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+.box-1 {
+  background-color: lightcoral;
+  top: 50px;
+  left: 50px;
+  z-index: 1; /* This element will be under .box2 */
+}
+
+.box-2 {
+  background-color: lightblue;
+  top: 100px;
+  left: 150px;
+  z-index: 2; /* This element will be at the top of .box1 */
+}
+
+.box-3 {
+  background-color: lightgreen;
+  top: 150px;
+  left: 250px;
+  z-index: 0; /* This element is at the bottom */
+}
