@@ -1,0 +1,17 @@
+.opaque-element {
+  background-color: lightcoral;
+  padding: 20px;
+  opacity: 1;
+}
+
+.semi-transparent-element {
+  background-color: lightcoral;
+  padding: 20px;
+  opacity: 0.5;
+}
+
+.transparent-element {
+  background-color: lightcoral;
+  padding: 20px;
+  opacity: 0;
+}

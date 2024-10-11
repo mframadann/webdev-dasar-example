@@ -1,0 +1,47 @@
+.default-cursor {
+  cursor: default;
+  padding: 10px;
+  background-color: lightblue;
+}
+
+.pointer-cursor {
+  cursor: pointer;
+  padding: 10px;
+  background-color: lightgreen;
+}
+
+.text-cursor {
+  cursor: text;
+  padding: 10px;
+  background-color: lightyellow;
+}
+
+.move-cursor {
+  cursor: move;
+  padding: 10px;
+  background-color: lightcoral;
+}
+
+.not-allowed-cursor {
+  cursor: not-allowed;
+  padding: 10px;
+  background-color: lightpink;
+}
+
+.crosschair-cursor {
+  cursor: crosshair;
+  padding: 10px;
+  background-color: lightseagreen;
+}
+
+.wait-cursor {
+  cursor: wait;
+  padding: 10px;
+  background-color: lightsalmon;
+}
+
+.custom-cursor {
+  cursor: url("cat.png"), auto;
+  padding: 10px;
+  background-color: white;
+}
