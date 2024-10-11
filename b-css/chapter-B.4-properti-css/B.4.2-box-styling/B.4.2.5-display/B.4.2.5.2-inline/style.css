@@ -1,0 +1,8 @@
+p.inline-element {
+  display: inline;
+  color: brown;
+}
+
+p.inline-element:nth-child(2) {
+  color: blueviolet;
+}

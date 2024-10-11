@@ -1,0 +1,13 @@
+.inline-block-element {
+  display: inline-block;
+  width: 300px;
+  background-color: lightblue;
+  height: 200px;
+}
+
+.element-2 {
+  display: inline-block;
+  width: 300px;
+  background-color: lightgreen;
+  height: 200px;
+}

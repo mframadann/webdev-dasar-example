@@ -1,0 +1,10 @@
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-child {
+  width: 300px;
+  height: 200px;
+  background-color: lightblue;
+}

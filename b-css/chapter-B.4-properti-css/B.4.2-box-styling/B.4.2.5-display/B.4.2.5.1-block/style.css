@@ -1,0 +1,13 @@
+.block-element {
+  display: block;
+  width: 100%;
+  background-color: lightblue;
+  height: 200px;
+}
+
+.element-2 {
+  display: block;
+  width: 100%;
+  background-color: lightgreen;
+  height: 200px;
+}
