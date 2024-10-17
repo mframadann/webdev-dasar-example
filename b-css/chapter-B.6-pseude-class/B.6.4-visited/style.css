@@ -1,0 +1,13 @@
+.social-links > li > a {
+  color: black;
+  text-decoration: none;
+}
+
+.social-links > li > a:hover {
+  color: brown;
+  text-decoration: underline;
+}
+
+.social-links > li > a:visited {
+  color: blueviolet;
+}
