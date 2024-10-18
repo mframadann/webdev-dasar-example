@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.registration-form {
+  border: 1px solid black;
+  width: fit-content;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.input-field {
+  padding: 0.5rem 1rem;
+  border: 1px solid gray;
+  outline: none;
+  border-radius: 6px;
+}
+
+.input-field:focus:not([type="password"]) {
+  border: 1px solid blueviolet;
+  outline: 3px solid rgba(185, 131, 236, 0.47);
+  outline-offset: 1px;
+}
