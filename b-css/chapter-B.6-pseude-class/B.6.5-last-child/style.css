@@ -1,0 +1,19 @@
+.card-container {
+  max-width: 72rem;
+  margin: auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  width: fit-content;
+  background-color: bisque;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 12px;
+}
+
+.card:last-child h1 {
+  color: blueviolet;
+}
