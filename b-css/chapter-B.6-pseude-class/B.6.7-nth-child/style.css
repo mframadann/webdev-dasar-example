@@ -1,0 +1,29 @@
+.card-container {
+  max-width: 72rem;
+  margin: auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  width: fit-content;
+  background-color: bisque;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 12px;
+}
+
+/* .card:nth-child(2) h1 {
+  color: blueviolet;
+} */
+
+/* Change the title of elements that have an odd order */
+/* .card:nth-child(odd) h1 {
+  color: blueviolet;
+} */
+
+/* Changing the title of elements in multiples of 3. */
+.card:nth-child(3n) h1 {
+  color: blueviolet;
+}
