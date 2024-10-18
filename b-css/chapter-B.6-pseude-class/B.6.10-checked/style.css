@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.newsletter-form {
+  border: 1px solid black;
+  width: fit-content;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.label:not([for="subscribe"]) {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.input-field:checked {
+  accent-color: blueviolet;
+}
+
+.input-field:checked ~ label {
+  color: blueviolet;
+}
