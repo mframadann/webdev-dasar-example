@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.add-to-chart {
+  background-color: #15b392;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+}
+
+.add-to-chart:hover {
+  background-color: #54c392;
+}
+
+.add-to-chart:disabled {
+  background-color: rgba(128, 128, 128, 0.559);
+  cursor: not-allowed;
+}
