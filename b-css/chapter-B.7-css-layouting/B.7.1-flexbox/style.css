@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-item {
+  background-color: lightblue;
+  margin: 5px;
+  padding: 20px;
+  text-align: center;
+}
