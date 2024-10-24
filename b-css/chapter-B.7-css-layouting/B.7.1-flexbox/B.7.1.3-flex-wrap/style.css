@@ -1,6 +1,6 @@
 .flex-container {
   display: flex;
-  flex-wrap: wrap; /* default: nowrap, wrap, wrap-reverse */
+  flex-direction: column-reverse; /* default: row, row-reverse, column, column-reverse*/
   border: 1px solid #000;
   padding: 1.5rem;
 }
