@@ -1,0 +1,12 @@
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.flex-item {
+  background-color: lightblue;
+  margin: 5px;
+  padding: 20px;
+  text-align: center;
+}
