@@ -1,0 +1,15 @@
+.flex-container {
+  display: flex;
+  flex-direction: column-reverse; /* default: row, row-reverse, column, column-reverse*/
+  border: 1px solid #000;
+  padding: 1.5rem;
+}
+
+.flex-item {
+  background-color: lightblue;
+  margin: 5px;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  padding: 1rem;
+}
