@@ -1,0 +1,31 @@
+.flex-container {
+  width: 100%;
+  height: 90vh;
+  background-color: #dff9e6;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  align-items: stretch;
+  border: 1px solid black;
+}
+
+.flex-item {
+  width: 125px;
+  /* height: 125px; */
+  background-color: #207538;
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+/* Uncomment this code for align-items: baseline */
+/* .font-48px {
+  font-size: 48px;
+}
+
+.font-84px {
+  font-size: 84px;
+} */
