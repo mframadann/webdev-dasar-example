@@ -1,0 +1,26 @@
+.flex-container {
+  display: flex;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.flex-item {
+  margin: 1rem;
+  background-color: #36ac5792;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+}
+
+.flex-item:nth-child(1) {
+  align-self: flex-start; /* Item ini akan diselaraskan ke atas */
+}
+
+.flex-item:nth-child(2) {
+  align-self: center; /* Item ini akan diselaraskan ke tengah */
+}
+
+.flex-item:nth-child(3) {
+  align-self: flex-end; /* Item ini akan diselaraskan ke bawah */
+}
