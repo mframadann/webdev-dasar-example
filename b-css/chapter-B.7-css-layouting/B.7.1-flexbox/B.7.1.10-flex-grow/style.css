@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  width: 100%;
+  padding: 0.5rem 1.5rem;
+  background-color: #1ad24e;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  height: 100vh;
+}
+
+.flex-item {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+}
+
+.sidebar {
+  color: #fff;
+  background-color: #207538;
+  flex-grow: 1;
+}
+
+.content {
+  background-color: #36ac5792;
+  flex-grow: 6;
+}
