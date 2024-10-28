@@ -1,0 +1,29 @@
+.flex-container {
+  display: flex;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.flex-item {
+  margin: 1rem;
+  background-color: #36ac5792;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+}
+
+.flex-item:nth-child(1) {
+  flex-basis: 200px;
+  flex-grow: 1; /* Item ini dapat tumbuh */
+}
+
+.flex-item:nth-child(2) {
+  flex-basis: 100px;
+  flex-grow: 2; /* Item ini tumbuh dua kali lipat dibanding item lainnya */
+}
+
+.flex-item:nth-child(3) {
+  flex-basis: 150px;
+  flex-shrink: 1; /* Item ini dapat menyusut */
+}
