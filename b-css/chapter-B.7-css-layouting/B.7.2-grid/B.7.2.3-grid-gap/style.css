@@ -1,0 +1,16 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 1fr 200px; /* tiga kolom dengan lebar 200px, 1fr, dan 200px */
+  grid-template-rows: 100px 1fr 100px; /* tiga baris dengan tinggi 100px, 1fr, dan 100px */
+  border: 1px solid black;
+  padding: 1rem;
+  /*gap: 1rem 2rem; 16px */
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+.grid-item {
+  background-color: #36ac5792;
+  border-radius: 12px;
+  font-size: 24px;
+}
