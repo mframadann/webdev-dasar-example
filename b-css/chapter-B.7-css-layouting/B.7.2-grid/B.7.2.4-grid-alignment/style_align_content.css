@@ -1,0 +1,17 @@
+.grid-container {
+  display: grid;
+  height: 400px;
+  grid-template-columns: 200px 200px 200px; /* tiga kolom dengan lebar 200px*/
+  border: 1px solid black;
+  padding: 1rem;
+  gap: 1rem;
+  justify-content: center;
+  align-content: center;
+}
+
+.grid-item {
+  background-color: #36ac5792;
+  border-radius: 12px;
+  font-size: 24px;
+  height: 200px;
+}
