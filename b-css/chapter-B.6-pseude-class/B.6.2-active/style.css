@@ -1,12 +1,14 @@
-.hover-button {
+.some-button {
   padding: 0.75rem 1.5rem;
-  background-color: bisque;
+  background-color: blueviolet;
   border-radius: 8px;
   border: none;
   cursor: pointer;
   font-weight: 600;
+  color: #fff;
 }
 
-.hover-button:hover {
+.some-button:active {
   background-color: pink;
+  color: #000;
 }
