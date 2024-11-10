@@ -1,53 +1,16 @@
-/* .grid-container { */
-/* display: grid; */
-/* grid-template-columns: 200px 1fr 200px;**/ /* tiga kolom dengan lebar 200px, 1fr, dan 200px */
-/*grid-template-rows: 100px 1fr 100px; /* tiga baris dengan tinggi 100px, 1fr, dan 100px */
-/* border: 1px solid black; */
-/* padding: 1rem; */
-/* } */
-
-/* .grid-item { */
-/* background-color: #36ac5792; */
-/* border-radius: 12px; */
-/* min-height: 200px; */
-/* font-size: 24px; */
-/* } */
-
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 3fr; /* kolom pertama lebih kecil untuk sidebar */
-  grid-template-rows: auto 1fr auto;
-  grid-template-areas:
-    "header header"
-    "sidebar content notif"
-    "footer footer";
+  grid-template-columns: 200px 1fr 200px; /* tiga kolom dengan lebar 200px, 1fr, dan 200px */
+  grid-template-rows: repeat(
+    2,
+    100px
+  ); /* satu baris dengan tinggi 100px, 1fr, dan 100px */
+  border: 1px solid black;
+  padding: 1rem;
 }
 
-.header {
-  grid-area: header;
-  width: 100%;
-  height: 50px;
-  background-color: brown;
-  color: #fff;
-}
-
-.sidebar {
-  grid-area: sidebar;
-  width: 100%;
-  height: 200px;
+.grid-item {
   background-color: #36ac5792;
-}
-
-.content {
-  grid-area: content;
-  width: 100%;
-  height: 200px;
-  background-color: blueviolet;
-  color: #fff;
-}
-.footer {
-  grid-area: footer;
-  width: 100%;
-  height: 200px;
-  background-color: greenyellow;
+  border-radius: 12px;
+  font-size: 24px;
 }
