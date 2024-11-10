@@ -1,0 +1,19 @@
+.galeries {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.grid-item {
+  aspect-ratio: 4/3;
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.item-1 {
+  grid-column: 1/3;
+  grid-row: 1 / 3;
+}
